@@ -25,8 +25,10 @@ public:
 
 	
 	float RunningTime;
-
-	UPROPERTY(EditAnyWhere, BluePrintReadWrite, Category = "MoveControl")
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MoveControl")
+	float MoveRate;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MoveControl")
 	bool bAutoMove;
 
 	// test 
